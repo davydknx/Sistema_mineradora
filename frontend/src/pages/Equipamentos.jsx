@@ -27,7 +27,7 @@ export default function Equipamentos() {
             setSetor(''); 
             carregarEquipamentos(); // Atualiza a lista após cadastrar 
         } catch (error) { 
-            console.error("Erro ao cadastrar", error); 
+           console.error("Erro ao cadastrar:", error.response?.data || error.message);
         } 
     }; 
  
