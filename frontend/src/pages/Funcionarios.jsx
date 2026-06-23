@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { funcionarioService } from '../services/api';
+import { funcionarioService } from '../services/Api';
 
 export default function Funcionarios() {
     const [funcionarios, setFuncionarios] = useState([]);

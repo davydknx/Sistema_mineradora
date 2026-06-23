@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { cidadeService } from '../services/api';
+import { cidadeService } from '../services/Api';
 
 export default function Cidades() {
     const [cidades, setCidades] = useState([]);
