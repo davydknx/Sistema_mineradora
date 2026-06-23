@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { servicoService } from '../services/api';
+import { servicoService } from '../services/Api';
 
 export default function Servicos() {
     const [servicos, setServicos] = useState([]);
